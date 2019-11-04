@@ -44,5 +44,8 @@ func main() {
 		toBin(5999),
 		)
 
-	readFile(fileName)
+	a := 1
+	b := 2
+	a, b = b, a
+	fmt.Println(a,b)
 }
